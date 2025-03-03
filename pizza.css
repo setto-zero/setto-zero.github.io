@@ -1,0 +1,154 @@
+body {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 7px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin: auto;
+    margin-top: 300px;
+    padding: 10px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+h2 {
+    color: #333;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+p {
+    color: #333;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+ol, ul {
+    /* Remove redundant color since it's already in other text elements */
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    width: 20%;
+    font-size: 1.2em; /* Reduced from 1.5em to prevent oversized text */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    list-style-position: inside;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: #333;
+}
+
+li {
+    padding: 7px;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+
+li:hover {
+    background-color: rgba(255, 65, 108, 0.1);
+    transform: translateX(5px);
+    color: #ff416c;
+    
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #ff416c;
+    outline: none;
+}
+
+.radio-group {
+    margin: 15px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+input[type="radio"] {
+    accent-color: #ff416c;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+}
+
+select:focus {
+    border-color: #ff416c;
+    outline: none;
+}
+
+/* Add some pizza-themed decorative elements */
+.pizza-icon {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Add a submit button style */
+button[type="submit"] {
+    background: #ff416c;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    transform: translateY(-2px);
+    background: #ff4b2b;
+}
+.pizza-logo {
+    margin: auto;
+    position: absolute;
+    top: 50px; right: auto;
+    bottom: auto; left: 825px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
