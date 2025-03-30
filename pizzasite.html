@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--Esta é uma cópia traduzida e alterada da página do Pizza Hut de 1996-->
+<!--Página original de acordo com este link:https://www.webdesignmuseum.org/gallery/pizza-hut-1996-->
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Hut</title>
+    <link rel="icon" href="https://logo-marque.com/wp-content/uploads/2021/10/Pizza-Hut-Logo.png">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <img src="https://logo-marque.com/wp-content/uploads/2021/10/Pizza-Hut-Logo.png" alt="" width="200px"
+            height="120px">
+        <h1>Bem-vindo ao Pizza hut!</h1>
+        <p>Esta loja eletrônica é trazida a você por <strong>Pizza Hut</strong> e <strong>The Santa Cruz
+                Operation.</strong>
+            Você pode clicar na logo do Pizza Hut <br>em qualquer página para enviar comentários sobre este serviço para
+            <em>webmaster@pizzahut.com.</em> <br>
+            Veja o que temos a oferecer:<button><a href="https://www.pizzahut.com.br/" target="_blank">Menu de
+                    Amostras</a></button>
+        </p>
+        <hr>
+        <p>Se você quiser pedir uma pizza para entrega, por favor forneça as seguintes informações:</p>
+        <!--Formulario com as informações do usuario-->
+
+        <form action="submit" method="post" class="order-form">
+            <div class="form-group">
+                <table cellspacing="0" cellpadding="0">
+                    <tr>
+                        <!--Campo onde o usuario colocara o nome-->
+                        <td><label for="name">Nome:</label></td>
+                        <td><input type="text" id="name" name="name" required style="width: 200px;"></td>
+                    </tr>
+                    <tr>
+                        <!--Campo do endereço-->
+                        <td><label for="address">Endereço:</label></td>
+                        <td><input type="text" id="address" name="address" required style="width: 200px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <!--Campo do telefone-->
+                        <td><label for="phone">Telefone: (##) ####-####</label></td>
+                        <td><input type="tel" id="phone" name="phone" required style="width: 110px;"> (Onde
+                            possamos contatar)</td>
+                    </tr>
+                    <!--Botão continuar-->
+                    <tr>
+                        <td colspan="2" align="center"><input type="submit" value="Continuar" style="margin-top: 2px;">
+                        </td>
+                    </tr>
+                </table>
+                <hr>
+            </div>
+            <img class="img-scologo" src="https://cdn.freebiesupply.com/logos/large/2x/sco-6-logo-png-transparent.png"
+                alt="" width="225px" height="200px">
+        </form>
+    </div>
+</body>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        place-items: center;
+
+
+
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .container {
+        max-width: 1200px;
+        width: 90%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    img {
+        margin: 5px;
+        margin-top: 40px;
+    }
+
+    .img-scologo {
+        margin-top: -40px;
+    }
+
+    p {
+        line-height: 1.4;
+        margin: 20px 0;
+        text-align: justify;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .form-group {
+        justify-content: left;
+        text-align: left;
+
+    }
+
+    input {
+        text-align: center;
+        border-radius: 0;
+        border: 1px solid gray;
+    }
+
+    table {
+        font-size: 16px;
+    }
+</style>
+
+</html>
